@@ -1,0 +1,197 @@
+.slid_div {
+
+    .slid_div_div {
+        .c-item {
+            height: 580px;
+            position: relative;
+
+            .c-img {
+                height: 100%;
+                object-fit: cover;
+                filter: brightness(0.6);
+
+            }
+
+            .slide-text {
+                position: absolute;
+                bottom: 190px;
+                right: 150px;
+                display: block;
+                text-align: end;
+                color: white;
+
+                h2 {
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 25px;
+
+                }
+
+                p {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-top: 20px;
+                }
+
+                button {
+                    padding: 10px;
+                    background-color: #ED7701;
+                    color: white;
+                    margin-top: 20px;
+                }
+
+                button:hover{
+                    background-color: #0D772F;
+                }
+            }
+        }
+    }
+
+    .card-item {
+        width: auto;
+        height: 50px;
+        position: absolute;
+        display: flex;
+        bottom: 40px;
+        right: 340px;
+
+
+        button {
+            align-items: center;
+
+            i {
+                padding-left: 10px;
+            }
+        }
+
+        button:hover {
+            background-color: #0D772F;
+            color: white;
+        }
+
+        .btn_search:hover {
+            background-color: #0D772F;
+        }
+
+    }
+
+
+
+
+
+
+    .first-sec {
+
+        .head2 {
+            width: 440px;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .head {
+            width: 240px;
+        }
+
+        li {
+            margin-bottom: 4px;
+
+            a {
+                color: black;
+                font-weight: 500;
+                transition: 0.7s;
+
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .sec {
+        .row {
+
+            .cea {
+                width: 405px;
+                height: 250px;
+                position: relative;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 250px;
+                    object-fit: cover;
+                    transition: 0.9s;
+                }
+
+                img:hover {
+                    transform: scale(2);
+
+                }
+
+
+                .tour {
+                    position: absolute;
+                    bottom: 40px;
+                    left: 5px;
+                    width: 250px;
+                    height: 50px;
+                    align-items: center;
+                    padding: 0 0 0 10px;
+                    background-color: #0B732B;
+
+                }
+
+                .tour:hover {
+                    background-color: #ED7701;
+                }
+
+
+            }
+
+        }
+    }
+
+    .second-sec {
+
+
+
+        .cea {
+            width: 405px;
+            height: 250px;
+            position: relative;
+
+            img {
+                width: 405px;
+                height: 250px;
+                object-fit: cover;
+                opacity: 1;
+            }
+
+            img:hover {
+                opacity: 0.5;
+            }
+
+            .tour {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                justify-content: space-between;
+                height: 40px;
+                align-items: center;
+                padding: 0 0 0 10px;
+
+                .tour-days {
+                    height: 100%;
+                    padding: 5px 10px;
+                }
+
+            }
+
+        }
+
+    }
+}
