@@ -14,7 +14,7 @@
 
             .slide-text {
                 position: absolute;
-                bottom: 190px;
+                bottom: 220px;
                 right: 150px;
                 display: block;
                 text-align: end;
@@ -34,164 +34,250 @@
                     margin-top: 20px;
                 }
 
-                button {
+                .button11 {
                     padding: 10px;
                     background-color: #ED7701;
                     color: white;
                     margin-top: 20px;
-                }
-
-                button:hover{
+                    
+                    &:hover {
                     background-color: #0D772F;
                 }
+                }
+
+               
             }
         }
     }
 
     .card-item {
         width: auto;
-        height: 50px;
+        height: 55px;
         position: absolute;
         display: flex;
         bottom: 40px;
         right: 340px;
+        background-color: #F1F1F1;
+    
+        .form-select{
+            border: #000 1px solid;
+            border-radius: 0px;
+
+           
+        }
+        .btn_search:hover{
+            background-color: #0D772F;
+        }
+
+       
+
+    }
+}
 
 
+
+
+
+.first-sec {
+
+    .head2 {
+        width: 440px;
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .head {
+        width: 240px;
+    }
+
+    li {
+        margin-bottom: 4px;
+
+        a {
+            color: black;
+            font-weight: 500;
+            transition: 0.7s;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+
+.last-sec {
+    .ce-card {
+        position: relative;
+        overflow: hidden;
+
+        height: 270px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            transition: 0.8s;
+
+
+        }
+
+        img:hover {
+            transform: scale(1.5);
+        }
+
+        .tour {
+            background-color: #ED7701;
+            position: absolute;
+            bottom: 20px;
+            transition: 0.8s;
+        }
+
+        .tour:hover {
+            background-color: #0B732B;
+        }
+
+    }
+
+}
+
+
+
+.second-sec {
+
+    .ul-list {
+        width: auto;
+        justify-content: center;
+        margin: 0 auto;
+
+        .nav-item {
+            .nav1-link {
+                background-color: rgb(25, 135, 84);
+            }
+
+            .nav1-link.active {
+                background-color: orange !important;
+                color: white;
+            }
+
+            .nav1-link:hover {
+                background-color: orange !important;
+                color: white;
+            }
+
+        }
+    }
+
+
+    .carousel-indicators {
         button {
-            align-items: center;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #000; // dark
+            border: 1px solid #333;
+            margin-right: 0.5rem;
 
-            i {
-                padding-left: 10px;
-            }
-        }
-
-        button:hover {
-            background-color: #0D772F;
-            color: white;
-        }
-
-        .btn_search:hover {
-            background-color: #0D772F;
-        }
-
-    }
-
-
-
-
-
-
-    .first-sec {
-
-        .head2 {
-            width: 440px;
-        }
-
-        p {
-            text-align: justify;
-        }
-
-        .head {
-            width: 240px;
-        }
-
-        li {
-            margin-bottom: 4px;
-
-            a {
-                color: black;
-                font-weight: 500;
-                transition: 0.7s;
-
-            }
-
-            a:hover {
-                text-decoration: underline;
+            &.active {
+                background-color: #ED7701; // highlight active
             }
         }
     }
 
-    .sec {
-        .row {
-
-            .cea {
-                width: 405px;
-                height: 250px;
-                position: relative;
-                overflow: hidden;
-
-                img {
-                    width: 100%;
-                    height: 250px;
-                    object-fit: cover;
-                    transition: 0.9s;
-                }
-
-                img:hover {
-                    transform: scale(2);
-
-                }
-
-
-                .tour {
-                    position: absolute;
-                    bottom: 40px;
-                    left: 5px;
-                    width: 250px;
-                    height: 50px;
-                    align-items: center;
-                    padding: 0 0 0 10px;
-                    background-color: #0B732B;
-
-                }
-
-                .tour:hover {
-                    background-color: #ED7701;
-                }
-
-
-            }
-
-        }
-    }
-
-    .second-sec {
-
-
-
-        .cea {
-            width: 405px;
-            height: 250px;
+    .last_slid {
+        .inner_slid {
             position: relative;
 
-            img {
-                width: 405px;
-                height: 250px;
-                object-fit: cover;
-                opacity: 1;
+            .cont {
+                position: absolute;
+                top: 0;
             }
+        }
+    }
 
-            img:hover {
+    .trips-card {
+        position: relative;
+
+        img {
+            width: 100%;
+            opacity: 1;
+            translate: 0.9s;
+
+            &:hover {
                 opacity: 0.5;
             }
-
-            .tour {
-                position: absolute;
-                bottom: 0;
-                width: 100%;
-                justify-content: space-between;
-                height: 40px;
-                align-items: center;
-                padding: 0 0 0 10px;
-
-                .tour-days {
-                    height: 100%;
-                    padding: 5px 10px;
-                }
-
-            }
-
         }
 
+        .tour {
+            height: auto;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: #0b732aa2;
+
+            .tour-days {
+                background-color: #ED7701;
+            }
+        }
+    }
+}
+
+
+.last {
+    .carousel-indicators {
+        button {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #523737; // dark
+            border: 1px solid #121212;
+            margin-right: 0.5rem;
+
+            &.active {
+                background-color: #d69657; // highlight active
+            }
+        }
+    }
+
+    .last_slid {
+        .inner_slid {
+            width: 100%;
+            height: 400px;
+            background-image: url(/images/1.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            .cont {
+                width: 700px;
+                height: auto;
+                position: absolute;
+                display: block;
+                justify-content: center;
+                top: 40%;
+                left: 10%;
+            }
+        }
+    }
+
+
+    .accordion {
+        .accordion-item {
+            width: 488px;
+            height: 40px;
+
+            button {
+                background-color: #197938;
+                width: 100%;
+                height: 100%;
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+        }
     }
 }
